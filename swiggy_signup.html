@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Roboto", sans-serif;
+  
+   }
+   .box{
+    height: 35rem;
+    width: 30rem;
+    border: 1px solid lightgrey;
+    display: block;
+    box-shadow: 1px 1px rgba(211, 211, 211, 0);
+    margin-left: 2em;
+    margin-top: 2em;
+   }
+   .box1{
+     height: 20%;
+     width: 80%;
+     /* border: 2px solid grey; */
+     margin-left: 2.6em;
+     margin-top: 1em;
+     display: flex;
+   }
+   .card1{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid green; */
+   }
+   .card2{
+    height: 85%;
+    width: 40%;
+    /* border: 1px solid green; */
+    margin-left: 12px;
+   }
+
+   .tex{
+    margin-top: -2px;
+    display: flex;
+    /* font-size: small; */
+   }
+   .login{
+    
+      margin-bottom: -23px;
+      font-weight:lighter;
+   }
+   #orange{
+    color: #fc8019;
+   } 
+   .image{
+    width: 78%;
+    height: 105%;
+    
+    margin-left: 3.5em;
+    
+   }
+   .box2{
+     height: 14%;
+     width: 80%;
+     /* border: 1px solid grey; */
+     margin-left: 2.6em;
+     margin-top: 0em;
+   }
+   .box2 input{
+    height: 100%;
+    width: 93%;
+    border: 1px solid lightgrey;
+    padding-left: 24px;
+   
+   }
+   .box2 ::placeholder{
+       color:rgba(45, 44, 44, 0.453);
+       font-size:larger;
+       padding-left: 1em;
+   }
+   .box2 input:hover{
+       font-size: smaller;
+       /* color: red; */
+   }
+   .btn{
+    height: 100%;
+    width: 100%;
+    background-color: #fc8019;
+    color: white;
+    font-size: larger;
+    border-radius: 2px;
+    
+   }
+   .box4 b:hover{
+    cursor: pointer;
+   }
+   .box3{
+     height: 11%;
+     width: 80%;
+     /* border: 2px solid grey; */
+     margin-left: 2.6em;
+     margin-top: 1em;
+   }
+   .box4{
+     height: 12%;
+     width: 80%;
+     /* border: 2px solid grey; */
+     margin-left: 2.6rem;
+     margin-top: 0em;
+     color: rgb(111, 110, 110);
+     margin-top: -.7rem;
+     font-size: smaller;
+   }
+   .box5{
+     height: 8%;
+     width: 80%;
+     /* border: 1px solid grey; */
+     margin-left: 2.6em;
+     margin-top: 1.2em;
+     color: dodgerblue;
+     margin-bottom: -1.6em;
+   }
+   a{
+    text-decoration: none;
+    color: #fc8019;
+   }
+   
+</style>
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="card1">
+             <div class="login">
+              <h1>Sign up</h1>
+             </div>
+             <div class="tex">
+              <p>or </p>
+              <p id="orange">&nbsp;<a href="swiggy_login.html">login to your account</a></p>
+             </div>
+            </div> 
+            <div class="card2">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r" alt="" class="image">
+            </div>
+         </div>
+
+         <div class="box2">
+            <input type="number" placeholder="Phone Number">
+           </div>
+        <div class="box2">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="box2">
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="box5">
+            <p>Have a referral code?</p>
+        </div>
+        <div class="box3">
+            <button class="btn">CONTINUE</button>
+            </div>
+            <div class="box4">
+             <p>By clicking on Login, I accept the <b>Terms & Conditions</b> & <b>Privacy Policy</b></p>
+            </div>
+    </div>
+</body>
+</html>
